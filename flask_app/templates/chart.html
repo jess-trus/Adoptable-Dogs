@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adopt a Dog- New Jersey</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+</head>
+<body>
+    <h1>Number of dogs by city</h1>
+    <canvas id="myChart" ></canvas>
+
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart_config = {{ chart_config|tojson }};
+        var myChart = new Chart(ctx, chart_config);
+    </script>
+</body>
