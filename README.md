@@ -6,6 +6,7 @@ Table of Contents
 3. [Steps](#steps)
 4. [Website](#website)
 5. [Visualizations](#visualizations)
+6. [References](#references)
 
 ## Introduction
 
@@ -19,7 +20,7 @@ There are approximately 3.1 million dogs in shelters in the US with over 1.5 mil
     ``` pip install Flask ```
 ## Steps
 
-1. Cleaned and analyzed data using Python
+1. Cleaned and analyzed data using Python in Jupyter Notebook
 2. Stored data in SQLite tables 
 3. Created a Python Flask- powered API, which is connected to the data stored in SQLite database
 4. Created HTML/CSS files to create a webpage and style it accordingly
@@ -35,11 +36,17 @@ There are approximately 3.1 million dogs in shelters in the US with over 1.5 mil
 
 ## Visualizations
 
-#### Number of Dogs by Breed
+##### Click for larger image
 <div>
   <img src="flask_app/static/images/chart.png" alt="Image Description" width="275" height="200" style="float: left; padding-right: 20px;"/>
   <img src="flask_app/static/images/info.png" alt="Image Description" width="275" height="200" style="float: left; margin-right: 300px;"/>
   <img src="flask_app/static/images/map.png" alt="Image Description" width="275" height="200" style="float: left; margin-right: 300px;"/>
 </div>
+
+## References
+1. edX Boot Camps LLC
+2. Kaggle - "Adoptable Dogs in the US" dataset
+3. Stack Overflow
+4. YouTube
 
 
