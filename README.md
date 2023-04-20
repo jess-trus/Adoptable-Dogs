@@ -37,9 +37,9 @@ There are approximately 3.1 million dogs in shelters in the US with over 1.5 mil
 
 #### Number of Dogs by Breed
 <div>
-  <img src="flask_app/static/images/chart.png" alt="Image Description" width="300" height="200" style="float: left; padding-right: 20px;"/>
-  <img src="flask_app/static/images/info.png" alt="Image Description" width="300" height="200" style="float: left; margin-right: 300px;"/>
-  <img src="flask_app/static/images/map.png" alt="Image Description" width="300" height="200" style="float: left; margin-right: 300px;"/>
+  <img src="flask_app/static/images/chart.png" alt="Image Description" width="275" height="200" style="float: left; padding-right: 20px;"/>
+  <img src="flask_app/static/images/info.png" alt="Image Description" width="275" height="200" style="float: left; margin-right: 300px;"/>
+  <img src="flask_app/static/images/map.png" alt="Image Description" width="275" height="200" style="float: left; margin-right: 300px;"/>
 </div>
 
 
