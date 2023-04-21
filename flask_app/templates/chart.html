@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!--Creating the Title of the page and referencing the static.css file. Also connecting to the chart.js libary -->
+
+	<title>Adopt a Dog- New Jersey</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+</head>
+<body>
+        <!--Naming the chart and adding reference for css-->
+    <h1>Number of dogs by breed</h1>
+    <canvas id="myChart" ></canvas>
+    
+        <!--Adding elements to the chart-->
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart_config = {{ chart_config|tojson }};
+        var myChart = new Chart(ctx, chart_config);
+    </script>
+</body>
